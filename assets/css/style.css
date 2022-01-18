@@ -1,0 +1,400 @@
+/* common into about-us and contact-us */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.text-12 {
+    font-size: 12px;
+}
+
+.text-14 {
+    font-size: 14px;
+}
+
+.text-16 {
+    font-size: 16px;
+}
+
+.text-18 {
+    font-size: 18px;
+}
+
+.text-24 {
+    font-size: 24px;
+}
+
+.text-36 {
+    font-size: 36px;
+}
+
+.text-72 {
+    font-size: 72px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    background: linear-gradient( rgba(218, 73, 102, 0.85), rgba(226, 83, 66, 0.85)), url("../images/img1.png");
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.learnmore {
+    color: #ed4a5b;
+}
+
+.center-menu {
+    width: 60%;
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+address {
+    margin-bottom: 0;
+}
+
+.navbar-toggler {
+    background: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    transform: scale(1.2);
+}
+
+
+/* about-us */
+
+.middle-2 {
+    background: #ed4a5b;
+}
+
+.card1 {
+    background-color: transparent;
+    border: none;
+}
+
+.ch {
+    background-color: transparent;
+    border-bottom: solid 3px #f66574;
+    padding: 0;
+}
+
+.ch1 {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.headtxt {
+    color: white;
+    white-space: normal;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-link:hover {
+    color: white;
+}
+
+
+/* contact-us */
+
+.icon-rel {
+    position: relative;
+}
+
+select {
+    appearance: none;
+}
+
+.icon-rel::after {
+    content: "\f107";
+    font-family: "FontAwesome";
+    font-size: 1rem;
+    right: 20px;
+    bottom: 29px;
+    position: absolute;
+}
+
+.btn-1 {
+    background-color: #ed4a5b;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+.form-control {
+    padding: 20px 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.form-group {
+    padding-bottom: 10px;
+}
+
+select.form-control.form-control1:not([size]):not([multiple]) {
+    height: calc(4.20rem + 2px);
+}
+
+
+/* home-page */
+
+.carousel-indicators>li {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.carousel-inner {
+    height: 780px;
+}
+
+.btn-2 {
+    color: #ed4a5b;
+    background: white;
+    padding: 20px 60px;
+    border-radius: 8px;
+}
+
+.card-container {
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #ededed;
+}
+
+.img1 {
+    padding-bottom: 12.95px;
+}
+
+.img2 {
+    padding-bottom: 12.95px;
+}
+
+.img3 {
+    padding-bottom: 22.62px;
+}
+
+.expances {
+    background: #ed4a5b;
+}
+
+.bottom-card {
+    margin-top: -100px;
+    background: white;
+    border-radius: 15px;
+}
+
+
+/* products-css */
+
+ul {
+    padding-left: 0px;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.page-link {
+    padding: 15px;
+    color: grey;
+}
+
+.bottom-card-1 {
+    margin-top: -13px;
+    background: white;
+    border-radius: 15px;
+}
+
+
+/* product-details */
+
+.bottom-card-2 {
+    margin-top: -13px;
+    background: white;
+    border-radius: 15px;
+}
+
+@media screen and (max-width:991.98px) {
+    .responsive-menubar {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .display-1 {
+        margin: 0% !important;
+        padding: 10px !important;
+    }
+    .middle {
+        padding: 0px !important;
+    }
+    .middle-col-1 {
+        padding-top: 0px !important;
+    }
+    .header-padding {
+        padding-bottom: 0px !important;
+    }
+    .f-container {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+    .copyright {
+        margin-top: 0px!important;
+    }
+    .id {
+        padding-left: 15px !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    /* home-page */
+    .carousel-inner {
+        height: 470px !important;
+    }
+    .txt-center {
+        text-align: center;
+    }
+    .part-1 {
+        padding: 20px !important;
+    }
+    .part-2 {
+        padding: 20px!important;
+    }
+    /* products */
+    .main-category {
+        margin: 0px 20%;
+        display: flex;
+        justify-content: space-around;
+        padding: 0px;
+    }
+    .category {
+        margin: 0px !important;
+        padding-left: 0px !important;
+    }
+    .tags {
+        margin: 0px !important;
+        padding-left: 0px !important;
+    }
+    .tag {
+        padding-top: 0px!important;
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    .footer-responsive {
+        padding-top: 20px !important;
+    }
+    .footer-text-responsive {
+        padding: 0px !important;
+    }
+    .footer {
+        padding-top: 0px !important;
+        text-align: center !important;
+    }
+    .responsive-text-header {
+        font-size: 45px !important;
+        padding-top: 0px !important;
+    }
+    /* about-us */
+    .card1 {
+        padding: 0px !important;
+    }
+    .faq {
+        padding: 10px 0px !important;
+    }
+    /* contact-us */
+    .form-control {
+        padding: 10px 10px;
+    }
+    select.form-control.form-control1:not([size]):not([multiple]) {
+        height: calc(2.75rem + 2px);
+    }
+    .icon-rel::after {
+        content: "\f107";
+        font-family: "FontAwesome";
+        font-size: 1rem;
+        right: 20px;
+        bottom: 20px;
+        position: absolute;
+    }
+    /* home-page */
+    .carousel-inner {
+        height: 350px !important;
+    }
+    .txt-center {
+        text-align: center;
+    }
+    .part-1 {
+        padding: 20px !important;
+    }
+    .part-2 {
+        padding: 20px!important;
+    }
+    .mt-5,
+    .my-5 {
+        margin-top: 1.5rem !important;
+    }
+    .btn-1 {
+        width: 100%;
+    }
+    .text-small {
+        padding-top: 0 !important;
+    }
+}
+
+
+/* home-page-only */
+
+@media screen and (max-width:538.98px) {
+    .carousel-inner {
+        height: 380px !important;
+    }
+}
+
+@media screen and (max-width:430.98px) {
+    .carousel-inner {
+        height: 400px !important;
+    }
+}
+
+
+/* products and product-details */
+
+@media screen and (max-width:575.98px) {
+    .main-category {
+        display: flex;
+        padding: 0px;
+    }
+    .category {
+        margin: 0px !important;
+        padding-right: 15px !important;
+    }
+    .tags {
+        margin: 0px !important;
+        padding-left: 15px !important;
+    }
+    .h5 {
+        font-size: 14px;
+    }
+    .h2 {
+        font-size: 18px;
+    }
+}
